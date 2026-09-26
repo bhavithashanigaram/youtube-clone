@@ -1,0 +1,98 @@
+
+            .video-preview2{
+                display:grid;
+                grid-template-columns:60px 1fr;
+            }
+            .video-preview1{
+                position: relative;
+            }
+            
+            .first-line1{
+                width: 220px;
+                margin-bottom:11px;
+                font-size:15px;
+                font-weight:600;
+                margin-left:7px;
+            }
+            .second-line1{
+                margin-top: 5px;
+                margin-bottom:2px;
+                margin-left:7px;
+                color:rgb(96,96,96);
+                font-size:14px;
+            }
+            .third-line1{
+                margin-top: 5px;
+                margin-bottom:5px;
+                margin-left:7px;
+                color:rgb(96,96,96);
+                font-size:15px;
+            }
+           
+            .profile-pic{
+                width:50px ;
+                height:50px ;
+                display: inline-block;
+                margin-top:25px;
+                margin-bottom: 0px;
+                border-radius:70px;
+                margin-left:8px;
+            }
+            .profile-pic2{
+                width:50px ;
+                height:50px ;
+                display: inline-block;
+                margin-top:25px;
+                margin-bottom: 0px;
+                border-radius:70px;
+                margin-left:8px;
+               
+            }
+            .time{
+                position:absolute;
+            }
+         
+            .about{
+                display: inline-block;
+                margin-top:13px;
+            }
+            .profile-box{
+                display: inline-block;
+               
+            }
+            .aboutchannel{
+                display: inline-block;
+                width:300px;
+            }
+            
+            .video-grid{
+             margin-top:80px; 
+             display:grid;
+             grid-template-columns:1fr 1fr 1fr ;
+             column-gap:20px;
+             row-gap:50px;
+             position: static;
+             cursor: pointer;
+            }
+            @media (max-width:750px){
+                .video-grid{
+                    grid-template-columns:1fr 1fr;
+                }
+            }
+            @media (min-width:751) and (max-width:999px){
+                .video-grid{
+                    grid-template-columns:1fr 1fr 1fr 1fr;
+                }
+            }
+            @media (max-width:1000px){
+                .video-grid{
+                    grid-template-columns:1fr 1fr 1fr 1fr;
+                }
+            }
+           .thumbnail1{
+              width:100%;
+             
+           }
+           .video-card{
+             width:100%
+           }
